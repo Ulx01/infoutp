@@ -1,8 +1,23 @@
-<h1 class = "text-center"> Bienvenido a la informacion necesaria para los estudiantes de la UTP</h1>
-<p class = "text-center">Aqui encontraras links interesantes para tu semestre!</p>
+<h1 class = "text-center"> Informacion UTP</h1>
+<h2 class = "text-center">Aqui encontraras links interesantes para tu semestre!</h2>
 
-<div class = "btn-group">
-<%= link_to "http://www.utp.ac.pa/documentos/2016/pdf/utp-calendario-academico-2017-2018_0.pdf", target: :blank do %>
-<button type="button" class="btn btn-info">Calendario academico</button>
-<% end%>
+<div class = "container">
+	<div class = "row">
+		<div class = "col-xs-6">
+			<%= link_to "http://www.utp.ac.pa/documentos/2016/pdf/utp-calendario-academico-2017-2018_0.pdf", target: :blank do %>
+				<button type="button" class="btn btn-info">Calendario academico</button>
+			<% end%>
+		</div>
+		<div class = "col-xs-6">
+		<%=link_to "http://www.utp.ac.pa/documentos/2014/pdf/Estatuto-Universitario.pdf", target: :blank do%>
+			<button type="button" class = "btn btn-info">Estatuto universitario</button>
+		<%end%>
+		</div>
+	</div>
+	<div class = "row">
+	<div class = "col-xs-6">
+		</div>
+		<div class = "col-xs-6">
+		</div>
+	</div>
 </div>
